@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML szerkesztő</title>
+
+    <style>
+        #inputWrapper {
+            padding-right: 6px;
+        }
+
+        #input {
+            width: 100%;
+        }
+
+        #output {
+            border: 1px solid black;
+            min-height: 40px;
+            padding: 2rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>HTML szerkesztő</h1>
+
+    <!-- input -->
+    <div id="inputWrapper">
+        <textarea id="input" rows="20">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi illo voluptatem exercitationem.</textarea>
+    </div>
+
+    <!-- gombok -->
+    <div>
+        <button id="buttonH1">H1</button>
+        <button id="buttonP">Paragraph</button>
+        <button id="buttonStrong">Strong</button>
+    </div>
+
+    <!-- scripts.js -->
+    <p>Output:</p>
+    <div id="output"></div>
+
+    <!-- scripts.js -->
+    <script src="scripts.js"></script>
+</body>
+
+</html>
